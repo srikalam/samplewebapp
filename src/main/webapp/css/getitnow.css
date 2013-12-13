@@ -1,0 +1,46 @@
+.getitnow-navbar-innerr {
+    background-color: blue;
+    background-image: linear-gradient(to bottom, blue, blue);
+    background-repeat: repeat-x;
+    border: 1px solid yellow;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    min-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+	label.valid {
+		  width: 24px;
+		  height: 24px;
+		  background: url(../img/valid.png) center center no-repeat;
+		  display: inline-block;
+		  text-indent: -9999px;
+		}
+		label.error {
+			font-weight: bold;
+			color: red;
+			padding: 2px 8px;
+			margin-top: 2px;
+			font-size: 15px;
+		}
+		
+.mainimage {
+	max-width: 120px;
+	max-height: 120px;
+	width: expression(this.width > 120 ? "120px" : true);
+	height: expression(this.height > 120 ? "120px" : true);
+}
+.invalid
+{
+	color: #B22;
+	font-weight: bold;
+}
+.valid
+{
+	color: #000000;
+}
+label.required:after {
+    content: ' *';
+	color: #b94a48;
+    display:inline;
+}
